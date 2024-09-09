@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color:#dddddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 2.5rem;
+    color: #222831;
+    text-align: center;
+    letter-spacing: 0.4rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+section input{
+    width: 30rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    color: #45474b;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+section button{
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #30475e;
+    color: #f5f7f8;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.resultados-pesquisa{
+    width: 60rem;
+    height: 46vh;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+}
+
+.item-resultado{
+    background: #ffffff;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px  rgba(0, 0, 0, 0.1);
+
+}
+.item-resultado h2{
+    font-size: 1.5rem;
+    color: #222831;
+}
+.item-resultado a{
+    text-decoration: none;
+    color: #30475e;
+}
+.item-resultado a:hover{
+    text-decoration: underline;
+}
+.descricao-meta{
+    color: #45474b;
+    margin: 0.5rem 0;
+}
+
+footer{
+    background-color: #f5f7f8;
+    color: #45474b;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+}
