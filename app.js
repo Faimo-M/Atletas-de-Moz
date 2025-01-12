@@ -1,10 +1,10 @@
 function Pesquisar(){
     let section = document.getElementById("resultados-pesquisa")
 
-let campoPesquisa= document.getElementById("campo-pesquisa").value
+let campoPesquisa = document.getElementById("campo-pesquisa").value
 
 if(!campoPesquisa){
-    section.innerHTML="<p> Atleta nao encontrado </p>"
+    section.innerHTML="<p> Por favor Insira nome de um atleta </p>"
      return
      }
 
@@ -43,7 +43,7 @@ resultados +=`
     }
      
     if (!resultados) {
-        resultados = "<p>Nada foi encontrado</p>"
+        resultados = "<p>por favor digite nome de algum atleta</p>"
         
         
         
