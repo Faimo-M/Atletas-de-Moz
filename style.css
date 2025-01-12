@@ -1,6 +1,6 @@
 body{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    background-color:#dddddd;
+    background-color: beige;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@ h1{
 
 section{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     margin-bottom: 3rem;
 }
@@ -45,15 +45,21 @@ section button{
 
 .resultados-pesquisa{
     width: 60rem;
-    height: 46vh;
+    height:50vh;
     overflow-y: auto;
     margin-top: 1rem;
     padding: 1rem;
     border-radius: 0.6rem;
 }
 
+img {
+    max-width: 25%; /* A imagem nunca será maior que o container */
+    height: auto; /* A altura se ajusta automaticamente para manter a proporção */
+    position: relative;
+  }
+
 .item-resultado{
-    background: #ffffff;
+    background: #75e4e4;
     border-radius: 0.6rem;
     padding: 1rem;
     margin-bottom: 1rem;
