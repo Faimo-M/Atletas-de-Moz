@@ -1,25 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
-    <title>Atletas de Moçambique </title>
+    <title>Atletas de Moçambique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1> Atletas de Moçambique </h1>
+        <h1>Atletas de Moçambique</h1>
+        <p>Descobrindo e celebrando os talentos do desporto moçambicano</p>
     </header>
     <main>
-        <section >
-            <input type ="text" placeholder="Digite o nome do atleta" id="campo-pesquisa"/>
-            <button onclick="Pesquisar()">  Pesquisar</button>
-        </section >
-
+        <section class="search-section">
+            <input type="text" placeholder="Digite o nome do atleta" id="campo-pesquisa"/>
+            <button onclick="Pesquisar()"><i class="fas fa-search"></i> Pesquisar</button>
+            <div class="filter-container">
+                <select id="filtro-modalidade">
+                    <option value="all">Todas as modalidades</option>
+                    <option value="futebol">Futebol</option>
+                    <option value="boxe">Boxe</option>
+                    <option value="atletismo">Atletismo</option>
+                </select>
+                <select id="filtro-trofeus">
+                    <option value="all">Todos os atletas</option>
+                    <option value="com-trofeus">Com troféus</option>
+                    <option value="sem-trofeus">Sem troféus</option>
+                </select>
+            </div>
+        </section>
         
-        <section class="resultados-pesquisa"
-            Id="resultados-pesquisa">
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
         </section>
     </main>
     

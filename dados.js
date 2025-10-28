@@ -1,4 +1,4 @@
-let dados=[ {
+let dados = [{
     titulo : "Reinildo Mandava",
     descricao : "Reinildo Isnard Mandava ou somente Reinildo é um futebolista moçambicano que atua como lateral-esquerdo. Atualmente joga no Atlético de Madrid.",
     link :"https://www.transfermarkt.pt/reinildo-mandava/profil/spieler/240692",
@@ -68,4 +68,45 @@ let dados=[ {
             }
 
     
+    ,
+    {
+        titulo: "Maria de Lurdes Mutola",
+        descricao: "Maria de Lurdes Mutola é uma ex-atleta moçambicana, especialista nos 800 metros. Ela é a única atleta moçambicana a conquistar uma medalha de ouro olímpica (Sydney 2000).",
+        link: "https://pt.wikipedia.org/wiki/Maria_de_Lurdes_Mutola",
+        tags: "atletismo corrida ouro olimpiada all atletas",
+        redeSocial: "https://www.facebook.com/marialurdesmutola.official",
+        foto: "media/mutola.jpg",
+        modalidade: "atletismo",
+        trofeus: [
+            "Medalha de Ouro - Jogos Olímpicos Sydney 2000",
+            "3x Campeã Mundial",
+            "7x Campeã Mundial Indoor"
+        ]
+    },
+    {
+        titulo: "Joaquim Lobo",
+        descricao: "Joaquim Lobo é um ex-atleta moçambicano de salto em altura. Foi recordista nacional e participou dos Jogos Olímpicos de 1980 em Moscovo.",
+        link: "https://www.olympic.org/joaquim-lobo",
+        tags: "atletismo salto altura olimpiada all atletas",
+        redeSocial: "",
+        foto: "media/lobo.jpg",
+        modalidade: "atletismo",
+        trofeus: [
+            "Recordista Nacional de Salto em Altura",
+            "Participação Olímpica - Moscovo 1980"
+        ]
+    },
+    {
+        titulo: "Kurt Couto",
+        descricao: "Kurt Couto é um atleta moçambicano especialista em 400 metros com barreiras. Representou Moçambique em várias competições internacionais.",
+        link: "https://www.worldathletics.org/athletes/mozambique/kurt-couto-14336886",
+        tags: "atletismo barreiras corrida all atletas",
+        redeSocial: "",
+        foto: "media/kurt.jpg",
+        modalidade: "atletismo",
+        trofeus: [
+            "Medalha de Ouro - Jogos Pan-Africanos 2011",
+            "Recordista Nacional 400m com barreiras"
+        ]
+    }
 ];
